@@ -2,7 +2,38 @@
 
 AI Video API by [US Video API](https://usvideoapi.com).
 
+[![Website](https://img.shields.io/badge/website-usvideoapi.com-0f172a)](https://usvideoapi.com)
+[![Main Repo](https://img.shields.io/badge/github-ai--video--api-111827)](https://github.com/usvideoapi/ai-video-api)
+[![Prompts](https://img.shields.io/badge/prompts-awesome--ai--video--api--prompts-1d4ed8)](https://github.com/usvideoapi/awesome-ai-video-api-prompts)
+
 Build text-to-video and image-to-video workflows for ads, creative automation, ecommerce, local business marketing, and AI-native applications.
+
+If this repo is useful, star it and follow [@usvideoapi](https://github.com/usvideoapi).
+
+## Start In 3 Steps
+
+1. Create or copy your API key from [usvideoapi.com](https://usvideoapi.com).
+2. Create a video job with `POST /v1/videos`.
+3. Poll `GET /v1/videos/{id}` until completion and store the returned asset URL.
+
+```bash
+curl -X POST "https://usvideoapi.com/v1/videos" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{
+    "model": "seedance-1-pro",
+    "prompt": "A 9:16 ecommerce ad with polished product shots, fast pacing, benefit overlays, and a strong shop-now CTA.",
+    "size": "1080p",
+    "duration": 5
+  }'
+```
+
+Then:
+
+```bash
+curl -H "Authorization: Bearer YOUR_API_KEY" \
+  "https://usvideoapi.com/v1/videos/JOB_ID"
+```
 
 This repository is the main open-source marketing and developer entrypoint for US Video API. It is designed to rank for practical developer search intent such as:
 
@@ -148,6 +179,15 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 - YouTube: [youtube.com/@USVideoApi](https://www.youtube.com/@USVideoApi)
 - [Documentation index](docs/index.md)
 
+## Showcase
+
+- [Showcase and use cases](docs/showcase.md)
+- [Restaurant Instagram case](examples/verticals/restaurant-instagram-case.md)
+- [Dental lead gen case](examples/verticals/dental-lead-gen-case.md)
+- [Medspa offer case](examples/verticals/medspa-offer-case.md)
+- [Ecommerce product launch case](examples/verticals/ecommerce-product-launch-case.md)
+- [Local services lead gen case](examples/verticals/local-services-lead-gen-case.md)
+
 ## Developer Examples
 
 - [curl examples](examples/curl)
@@ -162,6 +202,7 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 - [JavaScript SDK](sdk/javascript)
 - [OpenAPI spec](openapi/openapi.json)
 - [Postman collection](postman/us-video-api.postman_collection.json)
+- [Prompt library repo](https://github.com/usvideoapi/awesome-ai-video-api-prompts)
 
 ## Enterprise And Ops Docs
 
@@ -196,6 +237,11 @@ Mid-term:
 - add hosted API examples
 - add image-to-video demos
 - add webhook event examples
+
+## Releases
+
+- [Release notes](CHANGELOG.md)
+- Watch this repository for new SDK, docs, and vertical example updates.
 
 ## Brand
 

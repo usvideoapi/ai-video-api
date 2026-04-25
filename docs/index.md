@@ -18,6 +18,15 @@ This repository is organized into a few practical tracks.
 - [Polling and webhook strategy](webhooks-and-polling.md)
 - [Architecture and workflow](architecture-and-workflow.md)
 
+## Showcase
+
+- [Showcase and use cases](showcase.md)
+- [Restaurant Instagram case](../examples/verticals/restaurant-instagram-case.md)
+- [Dental lead gen case](../examples/verticals/dental-lead-gen-case.md)
+- [Medspa offer case](../examples/verticals/medspa-offer-case.md)
+- [Ecommerce product launch case](../examples/verticals/ecommerce-product-launch-case.md)
+- [Local services lead gen case](../examples/verticals/local-services-lead-gen-case.md)
+
 ## Enterprise
 
 - [Enterprise readiness](enterprise-readiness.md)
