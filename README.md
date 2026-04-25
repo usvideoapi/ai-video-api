@@ -10,6 +10,8 @@ Build text-to-video and image-to-video workflows for ads, creative automation, e
 
 If this repo is useful, star it and follow [@usvideoapi](https://github.com/usvideoapi).
 
+US Video API provides a developer-first surface for ad-ready video generation workflows, with support for high-quality underlying generation models including Seedance 2.0.
+
 ## Start In 3 Steps
 
 1. Create or copy your API key from [usvideoapi.com](https://usvideoapi.com).
@@ -52,6 +54,13 @@ This repo is for:
 - AI coding agents such as Codex, Claude Code, and Cursor
 - product teams building ad generation or creative automation
 - agencies serving ecommerce, local business, and performance marketing clients
+
+It is designed to sit above raw model access by adding:
+
+- developer-friendly API patterns
+- ad-ready workflow examples
+- prompt optimization and vertical packaging
+- team, admin, and enterprise-facing integration structure
 
 Current contents:
 
@@ -171,6 +180,19 @@ US Video API focuses on:
 - developer-first integration for AI agents and apps
 
 If you are searching for an AI video API for marketing, performance ads, ecommerce creatives, or local business campaigns, this is the public entrypoint.
+
+## Model Layer
+
+US Video API is positioned as the developer, workflow, and enterprise layer above raw generation access.
+
+That means the public product value is not only the underlying model quality, but also:
+
+- cleaner API integration
+- prompt and vertical workflow packaging
+- better alignment with AI coding agents
+- more practical adoption for marketing and enterprise teams
+
+Current public positioning includes support for high-quality video generation capabilities, including Seedance 2.0-backed workflows.
 
 ## Useful Links
 

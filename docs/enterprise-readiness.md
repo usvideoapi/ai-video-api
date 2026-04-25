@@ -2,6 +2,8 @@
 
 US Video API is positioned for enterprise and agency buyers who need more than a demo.
 
+It is designed as a developer and workflow layer above raw model access, with support for high-quality generation capabilities including Seedance 2.0-backed workflows.
+
 ## What Enterprise Buyers Usually Need
 
 - a stable HTTPS API surface
@@ -11,6 +13,20 @@ US Video API is positioned for enterprise and agency buyers who need more than a
 - team and admin controls
 - billing visibility
 - operational support and onboarding paths
+
+## Why This Layer Exists
+
+Enterprise buyers usually do not want to integrate raw model access in isolation.
+
+They usually need:
+
+- a cleaner developer surface
+- repeatable workflow patterns
+- team and admin alignment
+- integration examples that match real marketing use cases
+- confidence that the underlying model quality is already strong
+
+US Video API is meant to provide that layer while benefiting from strong underlying model capability.
 
 ## Integration Shape
 
