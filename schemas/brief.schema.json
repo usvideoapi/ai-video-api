@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creative Brief Input",
+  "type": "object",
+  "required": ["industry", "channel", "prompt"],
+  "properties": {
+    "industry": { "type": "string" },
+    "sub_industry": { "type": "string" },
+    "channel": { "type": "string" },
+    "goal": { "type": "string" },
+    "audience": { "type": "string" },
+    "brand_tone": { "type": "string" },
+    "company_stage": { "type": "string" },
+    "team_size": { "type": "string" },
+    "format": { "type": "string", "enum": ["video", "image"] },
+    "aspect_ratio": { "type": "string" },
+    "prompt": { "type": "string", "minLength": 5 }
+  },
+  "additionalProperties": true
+}
