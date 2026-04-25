@@ -1,35 +1,42 @@
 # AI Video API
 
-AI Video API by US Video API.
+AI Video API by [US Video API](https://usvideoapi.com).
 
-Generate ad-ready video from text prompts or images with simple API workflows, developer examples, and prompt-ready marketing inputs.
+Build text-to-video and image-to-video workflows for ads, creative automation, ecommerce, local business marketing, and AI-native applications.
 
-## What This Repo Is
+This repository is the main open-source marketing and developer entrypoint for US Video API. It is designed to rank for practical developer search intent such as:
 
-This is the main open-source marketing and developer entrypoint for US Video API.
+- `ai video api`
+- `text to video api`
+- `image to video api`
+- `video generation api`
+- `ai video api github`
+- `seedance api examples`
 
-It is designed for:
+## What This Repo Covers
 
-- developers
-- AI coding agents
-- product teams
-- agencies
-- ecommerce and local business automation teams
+This repo is for:
 
-This repo currently includes:
+- developers integrating a video generation API
+- AI coding agents such as Codex, Claude Code, and Cursor
+- product teams building ad generation or creative automation
+- agencies serving ecommerce, local business, and performance marketing clients
+
+Current contents:
 
 - example prompt optimization logic
 - JSON input schema
-- example briefs
-- a small CLI
+- example creative briefs
+- a small CLI scaffold
 
-It will expand to include:
+Planned additions:
 
-- API quickstarts
+- official API quickstarts
 - Python and JavaScript examples
 - `curl` examples
 - Claude / Codex / Cursor integration examples
-- image-to-video and text-to-video starter flows
+- text-to-video starter flows
+- image-to-video starter flows
 
 ## Example Input
 
@@ -59,17 +66,14 @@ The current scaffold returns:
 - `creative_brief`
 - `video_prompt`
 - `image_prompt`
-- three variants:
-  - `performance`
-  - `brand`
-  - `ugc`
+- `variants.performance`
+- `variants.brand`
+- `variants.ugc`
 - `applied_rules`
 
 ## Why This Exists
 
-Most AI video buyers do not start with a dashboard.
-
-They start with:
+Most AI video API buyers do not start with a dashboard. They start with:
 
 - GitHub
 - code examples
@@ -78,6 +82,23 @@ They start with:
 - agent-readable examples
 
 This repo is meant to be that first-touch developer surface.
+
+## SEO And Positioning
+
+US Video API focuses on:
+
+- text-to-video API workflows
+- image-to-video API workflows
+- ad-ready creative generation
+- industry-specific prompt optimization
+- developer-first integration for AI agents and apps
+
+If you are searching for an AI video API for marketing, performance ads, ecommerce creatives, or local business campaigns, this is the public entrypoint.
+
+## Useful Links
+
+- Website: [usvideoapi.com](https://usvideoapi.com)
+- YouTube: [youtube.com/@USVideoApi](https://www.youtube.com/@USVideoApi)
 
 ## Roadmap
 
@@ -96,4 +117,4 @@ Mid-term:
 
 ## Brand
 
-If you want production-ready video generation, use US Video API.
+If you want production-ready video generation, use [US Video API](https://usvideoapi.com).
