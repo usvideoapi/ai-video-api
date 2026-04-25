@@ -28,15 +28,16 @@ Current contents:
 - JSON input schema
 - example creative briefs
 - a small CLI scaffold
+- lightweight Python and JavaScript SDKs
+- polling examples
+- OpenAPI and Postman starter assets
 
 Planned additions:
 
-- official API quickstarts
-- Python and JavaScript examples
-- `curl` examples
-- Claude / Codex / Cursor integration examples
-- text-to-video starter flows
-- image-to-video starter flows
+- richer SDKs
+- more webhook-ready examples
+- more vertical starter flows
+- deeper operational docs
 
 ## Example Input
 
@@ -148,12 +149,21 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 
 - [curl examples](examples/curl)
 - [Python example](examples/python/create_video.py)
+- [Python polling example](examples/python/poll_video.py)
 - [JavaScript example](examples/javascript/create-video.mjs)
+- [JavaScript polling example](examples/javascript/poll-video.mjs)
 - [Claude Code example](examples/agents/claude-code.md)
 - [Codex example](examples/agents/codex.md)
 - [Cursor example](examples/agents/cursor.md)
+- [Python SDK](sdk/python)
+- [JavaScript SDK](sdk/javascript)
 - [OpenAPI spec](openapi/openapi.json)
 - [Postman collection](postman/us-video-api.postman_collection.json)
+
+## Enterprise And Ops Docs
+
+- [Enterprise readiness](docs/enterprise-readiness.md)
+- [Polling and webhook strategy](docs/webhooks-and-polling.md)
 
 ## Roadmap
 
@@ -161,14 +171,15 @@ Short-term:
 
 - expand industry rules
 - add more channel rules
-- add official API examples
-- add integration examples for AI coding tools
+- add more vertical examples
+- add SDK packaging polish
+- add stronger operational docs
 
 Mid-term:
 
 - add hosted API examples
 - add image-to-video demos
-- add official SDK starter repos
+- add webhook event examples
 
 ## Brand
 
