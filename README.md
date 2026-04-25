@@ -163,6 +163,9 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 ## Enterprise And Ops Docs
 
 - [Enterprise readiness](docs/enterprise-readiness.md)
+- [Security and data handling](docs/security-and-data-handling.md)
+- [Support and onboarding](docs/support-and-onboarding.md)
+- [Architecture and workflow](docs/architecture-and-workflow.md)
 - [Polling and webhook strategy](docs/webhooks-and-polling.md)
 
 ## Roadmap
@@ -174,6 +177,7 @@ Short-term:
 - add more vertical examples
 - add SDK packaging polish
 - add stronger operational docs
+- add richer trust and integration materials
 
 Mid-term:
 
