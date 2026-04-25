@@ -59,6 +59,49 @@ Planned additions:
 python3 -m cli.main examples/restaurant-instagram.json
 ```
 
+## API Quickstart
+
+Base URL:
+
+```text
+https://usvideoapi.com
+```
+
+Auth:
+
+```text
+Authorization: Bearer YOUR_API_KEY
+```
+
+Create a video job:
+
+```bash
+curl -X POST "https://usvideoapi.com/v1/videos" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -d '{
+    "model": "seedance-1-pro",
+    "prompt": "A fast-cut 9:16 restaurant ad showing a lunch special with bright food closeups and an offer overlay.",
+    "image_url": "",
+    "size": "1080p",
+    "duration": 5
+  }'
+```
+
+Check job status:
+
+```bash
+curl -H "Authorization: Bearer YOUR_API_KEY" \
+  "https://usvideoapi.com/v1/videos/JOB_ID"
+```
+
+List API keys:
+
+```bash
+curl -H "Authorization: Bearer YOUR_API_KEY" \
+  "https://usvideoapi.com/v1/api-keys"
+```
+
 ## Output
 
 The current scaffold returns:
@@ -98,7 +141,19 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 ## Useful Links
 
 - Website: [usvideoapi.com](https://usvideoapi.com)
+- AI Video API page: [usvideoapi.com/ai-video-api](https://usvideoapi.com/ai-video-api)
 - YouTube: [youtube.com/@USVideoApi](https://www.youtube.com/@USVideoApi)
+
+## Developer Examples
+
+- [curl examples](examples/curl)
+- [Python example](examples/python/create_video.py)
+- [JavaScript example](examples/javascript/create-video.mjs)
+- [Claude Code example](examples/agents/claude-code.md)
+- [Codex example](examples/agents/codex.md)
+- [Cursor example](examples/agents/cursor.md)
+- [OpenAPI spec](openapi/openapi.json)
+- [Postman collection](postman/us-video-api.postman_collection.json)
 
 ## Roadmap
 

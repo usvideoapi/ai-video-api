@@ -1,0 +1,83 @@
+{
+  "info": {
+    "name": "US Video API",
+    "_postman_id": "d0453de2-1831-4fa6-b6d5-3ae41d77aa3c",
+    "description": "Basic Postman collection for US Video API.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://usvideoapi.com"
+    },
+    {
+      "key": "api_key",
+      "value": ""
+    },
+    {
+      "key": "job_id",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Create Video",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer {{api_key}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"model\": \"seedance-1-pro\",\n  \"prompt\": \"A 9:16 ecommerce ad for a beauty product with polished product shots and a clear CTA.\",\n  \"size\": \"1080p\",\n  \"duration\": 5\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/v1/videos",
+          "host": ["{{base_url}}"],
+          "path": ["v1", "videos"]
+        }
+      }
+    },
+    {
+      "name": "Get Video",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/v1/videos/{{job_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["v1", "videos", "{{job_id}}"]
+        }
+      }
+    },
+    {
+      "name": "List API Keys",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{api_key}}"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/v1/api-keys",
+          "host": ["{{base_url}}"],
+          "path": ["v1", "api-keys"]
+        }
+      }
+    }
+  ]
+}
