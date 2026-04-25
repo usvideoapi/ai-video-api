@@ -1,0 +1,55 @@
+{
+  "channel_url": "https://www.youtube.com/@USVideoApi",
+  "channel_id": "UC5bHi-fg7m7girINTKM4YFg",
+  "refreshed_at": "2026-04-25T22:08:09.175353Z",
+  "videos": [
+    {
+      "video_id": "4EXS38Tuc3Q",
+      "title": "Enterprise AI Video Demo | Buyer-Ready Visuals",
+      "published_at": "2026-04-25T14:00:13Z",
+      "description": "In-house enterprise AI video demo built for buyer-ready pages and workflow proof.\n\nBuild with the API, see the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #enterprise #aivideo #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
+      "url": "https://www.youtube.com/watch?v=4EXS38Tuc3Q",
+      "shorts_url": "https://www.youtube.com/shorts/4EXS38Tuc3Q",
+      "view_count": 8,
+      "like_count": 1,
+      "comment_count": 0,
+      "duration": "PT33S"
+    },
+    {
+      "video_id": "uKg6slt_G4Y",
+      "title": "AI Video API Brand Reel Demo | Seedance 2.0 Short",
+      "published_at": "2026-04-24T14:01:29Z",
+      "description": "Real in-house AI video API brand reel showing multiple commercial styles generated with Seedance 2.0.\n\nBuild with the API, see the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #seedance #videogeneration #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
+      "url": "https://www.youtube.com/watch?v=uKg6slt_G4Y",
+      "shorts_url": "https://www.youtube.com/shorts/uKg6slt_G4Y",
+      "view_count": 63,
+      "like_count": 1,
+      "comment_count": 0,
+      "duration": "PT36S"
+    },
+    {
+      "video_id": "s_0ea6gp3go",
+      "title": "AI Creator Workspace B-Roll | Seedance 2.0 Short",
+      "published_at": "2026-04-23T20:28:17Z",
+      "description": "Real in-house vertical AI video sample generated with US Video API using Seedance 2.0. Built as creator workspace b-roll for Shorts, Reels, TikTok, and social content workflows.\n\nBuild with the API, review the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #videogeneration #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
+      "url": "https://www.youtube.com/watch?v=s_0ea6gp3go",
+      "shorts_url": "https://www.youtube.com/shorts/s_0ea6gp3go",
+      "view_count": 1973,
+      "like_count": 27,
+      "comment_count": 0,
+      "duration": "PT9S"
+    },
+    {
+      "video_id": "kLqo3isbysY",
+      "title": "AI Video API Brand Reel Demo | Seedance 2.0 Short",
+      "published_at": "2026-04-23T20:03:05Z",
+      "description": "Real in-house AI video sample generated with US Video API using Seedance 2.0. This short brand reel shows the kind of polished commercial output we use on usvideoapi.com.\n\nBuild with the API, review the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #videogeneration #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
+      "url": "https://www.youtube.com/watch?v=kLqo3isbysY",
+      "shorts_url": "https://www.youtube.com/shorts/kLqo3isbysY",
+      "view_count": 19,
+      "like_count": 0,
+      "comment_count": 0,
+      "duration": "PT9S"
+    }
+  ]
+}
