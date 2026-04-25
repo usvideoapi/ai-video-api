@@ -9,7 +9,7 @@ flowchart LR
     A[Your App or Agent] --> B[POST /v1/videos]
     B --> C[US Video API Job Created]
     C --> D[Store job_id in your system]
-    D --> E[Poll GET /v1/videos/{id}]
+    D --> E[Poll GET video status by job_id]
     E --> F[Completed Asset URL]
     F --> G[Your CRM / CMS / Ad Workflow]
 ```
