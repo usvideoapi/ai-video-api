@@ -12,6 +12,17 @@ It is intentionally focused on practical use cases that developers, agencies, an
 - creative automation inside apps and internal tools
 - AI agent workflows that need video generation as a callable capability
 
+## Public Sample Videos
+
+These are public videos published on the US Video API YouTube channel and used as part of the public proof surface for the product.
+
+- Shorts sample:
+  [AI Creator Workspace B-Roll | Seedance 2.0 Short](https://www.youtube.com/shorts/s_0ea6gp3go)
+- YouTube sample:
+  [AI Video API Brand Reel Demo | Seedance 2.0 Short](https://www.youtube.com/watch?v=kLqo3isbysY)
+
+These samples matter because they show that the public GitHub and docs surface is backed by actual output we publish ourselves, not just static API documentation.
+
 ## Common Use Cases
 
 ### Restaurant And Local Food Ads

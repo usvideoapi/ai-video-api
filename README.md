@@ -204,6 +204,8 @@ Current public positioning includes support for high-quality video generation ca
 ## Showcase
 
 - [Showcase and use cases](docs/showcase.md)
+- Sample Shorts proof: [AI Creator Workspace B-Roll | Seedance 2.0 Short](https://www.youtube.com/shorts/s_0ea6gp3go)
+- Sample YouTube proof: [AI Video API Brand Reel Demo | Seedance 2.0 Short](https://www.youtube.com/watch?v=kLqo3isbysY)
 - [Restaurant Instagram case](examples/verticals/restaurant-instagram-case.md)
 - [Dental lead gen case](examples/verticals/dental-lead-gen-case.md)
 - [Medspa offer case](examples/verticals/medspa-offer-case.md)
