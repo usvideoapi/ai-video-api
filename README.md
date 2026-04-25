@@ -31,6 +31,8 @@ Current contents:
 - lightweight Python and JavaScript SDKs
 - polling examples
 - OpenAPI and Postman starter assets
+- vertical case examples
+- enterprise and workflow docs
 
 Planned additions:
 
@@ -144,6 +146,7 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 - Website: [usvideoapi.com](https://usvideoapi.com)
 - AI Video API page: [usvideoapi.com/ai-video-api](https://usvideoapi.com/ai-video-api)
 - YouTube: [youtube.com/@USVideoApi](https://www.youtube.com/@USVideoApi)
+- [Documentation index](docs/index.md)
 
 ## Developer Examples
 
@@ -162,11 +165,20 @@ If you are searching for an AI video API for marketing, performance ads, ecommer
 
 ## Enterprise And Ops Docs
 
+- [Documentation index](docs/index.md)
 - [Enterprise readiness](docs/enterprise-readiness.md)
 - [Security and data handling](docs/security-and-data-handling.md)
 - [Support and onboarding](docs/support-and-onboarding.md)
 - [Architecture and workflow](docs/architecture-and-workflow.md)
 - [Polling and webhook strategy](docs/webhooks-and-polling.md)
+
+## Vertical Case Examples
+
+- [Restaurant Instagram case](examples/verticals/restaurant-instagram-case.md)
+- [Dental lead gen case](examples/verticals/dental-lead-gen-case.md)
+- [Medspa offer case](examples/verticals/medspa-offer-case.md)
+- [Ecommerce product launch case](examples/verticals/ecommerce-product-launch-case.md)
+- [Local services lead gen case](examples/verticals/local-services-lead-gen-case.md)
 
 ## Roadmap
 
