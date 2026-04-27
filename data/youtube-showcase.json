@@ -1,8 +1,32 @@
 {
   "channel_url": "https://www.youtube.com/@USVideoApi",
   "channel_id": "UC5bHi-fg7m7girINTKM4YFg",
-  "refreshed_at": "2026-04-26T13:20:02.922212Z",
+  "refreshed_at": "2026-04-27T13:20:03.265938Z",
   "videos": [
+    {
+      "video_id": "ZL-u-1Tmg8g",
+      "title": "1 Image + 1 Prompt = 1 Camera Commercial",
+      "published_at": "2026-04-27T05:20:49Z",
+      "description": "One camera image, one prompt, and one full AI commercial output with US Video API, powered by Seedance 2.0.\n\nThis short shows both the final visual result and the actual prompt structure used to generate a premium camera commercial style output.\n\nPROMPT:\n[0-3s] Extreme macro lens close-up of the camera lens. The glass elements reflect cool studio lights. Metallic engravings are razor sharp. A soft blue rim light grazes the edges. The image breathes with depth and texture.\n\n[3-7s] The camera begins a slow orbital move, revealing the top plate and precision dials. Cinematic parallax and soft haze in the background. The lighting sculpts the form with subtle gradients and metallic reflections.\n\n[7-12s] Orbit continues to the rear. The display and controls come into view. Reflections glide across the screen and buttons. The camera feels tactile, premium, and engineered for creators.\n\n[12-15s] Hero push-in to a three-quarter front angle. The lens catches a final highlight as the camera settles in a powerful beauty shot. Perfect product hero composition.\n\nVisual Style: Ultra-realistic, cinematic product commercial. Shallow depth of field, soft haze, controlled highlights, dark moody environment, premium studio lighting.\n\nGenerate videos like this:\nhttps://usvideoapi.com\n\n#shorts #usvideoapi #seedance #prompt #aivideo #productvideo #cameraad",
+      "url": "https://www.youtube.com/watch?v=ZL-u-1Tmg8g",
+      "shorts_url": "https://www.youtube.com/shorts/ZL-u-1Tmg8g",
+      "view_count": 117,
+      "like_count": 1,
+      "comment_count": 0,
+      "duration": "PT9S"
+    },
+    {
+      "video_id": "PXXwODL2l8I",
+      "title": "From 1 Camera Photo to a Cinematic AI Commercial",
+      "published_at": "2026-04-27T05:20:15Z",
+      "description": "A single camera image turned into a cinematic AI product commercial with US Video API, powered by Seedance 2.0.\n\nThis short demonstrates AI camera product video generation with macro lens detail, orbital camera motion, premium lighting, and a clean hero lockup.\n\nPROMPT:\n[0-3s] Extreme macro lens close-up of the camera lens. The glass elements reflect cool studio lights. Metallic engravings are razor sharp. A soft blue rim light grazes the edges. The image breathes with depth and texture.\n\n[3-7s] The camera begins a slow orbital move, revealing the top plate and precision dials. Cinematic parallax and soft haze in the background. The lighting sculpts the form with subtle gradients and metallic reflections.\n\n[7-12s] Orbit continues to the rear. The display and controls come into view. Reflections glide across the screen and buttons. The camera feels tactile, premium, and engineered for creators.\n\n[12-15s] Hero push-in to a three-quarter front angle. The lens catches a final highlight as the camera settles in a powerful beauty shot. Perfect product hero composition.\n\nVisual Style: Ultra-realistic, cinematic product commercial. Shallow depth of field, soft haze, controlled highlights, dark moody environment, premium studio lighting.\n\nBuild similar AI product videos:\nhttps://usvideoapi.com\n\n#shorts #usvideoapi #seedance #aivideo #productvideo #cameraad #commercialdemo",
+      "url": "https://www.youtube.com/watch?v=PXXwODL2l8I",
+      "shorts_url": "https://www.youtube.com/shorts/PXXwODL2l8I",
+      "view_count": 178,
+      "like_count": 1,
+      "comment_count": 0,
+      "duration": "PT9S"
+    },
     {
       "video_id": "4EXS38Tuc3Q",
       "title": "Enterprise AI Video Demo | Buyer-Ready Visuals",
@@ -10,7 +34,7 @@
       "description": "In-house enterprise AI video demo built for buyer-ready pages and workflow proof.\n\nBuild with the API, see the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #enterprise #aivideo #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
       "url": "https://www.youtube.com/watch?v=4EXS38Tuc3Q",
       "shorts_url": "https://www.youtube.com/shorts/4EXS38Tuc3Q",
-      "view_count": 9,
+      "view_count": 10,
       "like_count": 1,
       "comment_count": 0,
       "duration": "PT33S"
@@ -22,34 +46,10 @@
       "description": "Real in-house AI video API brand reel showing multiple commercial styles generated with Seedance 2.0.\n\nBuild with the API, see the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #seedance #videogeneration #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
       "url": "https://www.youtube.com/watch?v=uKg6slt_G4Y",
       "shorts_url": "https://www.youtube.com/shorts/uKg6slt_G4Y",
-      "view_count": 69,
+      "view_count": 73,
       "like_count": 1,
       "comment_count": 0,
       "duration": "PT36S"
-    },
-    {
-      "video_id": "s_0ea6gp3go",
-      "title": "AI Creator Workspace B-Roll | Seedance 2.0 Short",
-      "published_at": "2026-04-23T20:28:17Z",
-      "description": "Real in-house vertical AI video sample generated with US Video API using Seedance 2.0. Built as creator workspace b-roll for Shorts, Reels, TikTok, and social content workflows.\n\nBuild with the API, review the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #videogeneration #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
-      "url": "https://www.youtube.com/watch?v=s_0ea6gp3go",
-      "shorts_url": "https://www.youtube.com/shorts/s_0ea6gp3go",
-      "view_count": 1982,
-      "like_count": 27,
-      "comment_count": 0,
-      "duration": "PT9S"
-    },
-    {
-      "video_id": "kLqo3isbysY",
-      "title": "AI Video API Brand Reel Demo | Seedance 2.0 Short",
-      "published_at": "2026-04-23T20:03:05Z",
-      "description": "Real in-house AI video sample generated with US Video API using Seedance 2.0. This short brand reel shows the kind of polished commercial output we use on usvideoapi.com.\n\nBuild with the API, review the docs, or start an enterprise evaluation.\n\nSite: https://usvideoapi.com\nDocs: https://usvideoapi.com/docs\nEnterprise: https://usvideoapi.com/enterprise\nChannel: https://www.youtube.com/@USVideoApi\n\n#shorts #aivideo #videogeneration #seedance #usvideoapi\n\n[USVIDEOAPI_LINKS_START]\nBuild with US Video API:\nSite: https://usvideoapi.com\nAI Video API: https://usvideoapi.com/ai-video-api\nDocs: https://usvideoapi.com/docs\nGitHub: https://github.com/usvideoapi/ai-video-api\nPrompt Repo: https://github.com/usvideoapi/awesome-ai-video-api-prompts\nChannel: https://www.youtube.com/@USVideoApi\n[USVIDEOAPI_LINKS_END]",
-      "url": "https://www.youtube.com/watch?v=kLqo3isbysY",
-      "shorts_url": "https://www.youtube.com/shorts/kLqo3isbysY",
-      "view_count": 23,
-      "like_count": 0,
-      "comment_count": 0,
-      "duration": "PT9S"
     }
   ]
 }
