@@ -7,12 +7,12 @@ API_KEY = os.environ["USVIDEOAPI_KEY"]
 BASE_URL = os.environ.get("USVIDEOAPI_BASE_URL", "https://usvideoapi.com")
 
 payload = {
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": (
         "A 9:16 local restaurant ad showing a lunch combo, close-up food shots, "
         "quick pacing, and a final offer CTA."
     ),
-    "size": "1080p",
+    "resolution": "1080p",
     "duration": 5,
 }
 

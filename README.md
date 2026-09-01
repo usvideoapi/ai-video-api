@@ -23,9 +23,9 @@ curl -X POST "https://usvideoapi.com/v1/videos" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": "A 9:16 ecommerce ad with polished product shots, fast pacing, benefit overlays, and a strong shop-now CTA.",
-    "size": "1080p",
+    "resolution": "1080p",
     "duration": 5
   }'
 ```
@@ -123,10 +123,10 @@ curl -X POST "https://usvideoapi.com/v1/videos" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": "A fast-cut 9:16 restaurant ad showing a lunch special with bright food closeups and an offer overlay.",
-    "image_url": "",
-    "size": "1080p",
+    "image": "",
+    "resolution": "1080p",
     "duration": 5
   }'
 ```
@@ -142,7 +142,7 @@ List API keys:
 
 ```bash
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-  "https://usvideoapi.com/v1/api-keys"
+  "https://usvideoapi.com/v1/auth/api-keys"
 ```
 
 ## Output

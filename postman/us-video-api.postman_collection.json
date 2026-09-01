@@ -36,7 +36,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"model\": \"seedance-1-pro\",\n  \"prompt\": \"A 9:16 ecommerce ad for a beauty product with polished product shots and a clear CTA.\",\n  \"size\": \"1080p\",\n  \"duration\": 5\n}"
+          "raw": "{\n  \"model\": \"seedance-2.0\",\n  \"prompt\": \"A 9:16 ecommerce ad for a beauty product with polished product shots and a clear CTA.\",\n  \"resolution\": \"1080p\",\n  \"duration\": 5\n}"
         },
         "url": {
           "raw": "{{base_url}}/v1/videos",
@@ -73,7 +73,7 @@
           }
         ],
         "url": {
-          "raw": "{{base_url}}/v1/api-keys",
+          "raw": "{{base_url}}/v1/auth/api-keys",
           "host": ["{{base_url}}"],
           "path": ["v1", "api-keys"]
         }

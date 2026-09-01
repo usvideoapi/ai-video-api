@@ -18,14 +18,14 @@ export class USVideoAPI {
 
   async createVideo({
     prompt,
-    model = "seedance-1-pro",
-    image_url,
-    size = "1080p",
+    model = "seedance-2.0",
+    image,
+    resolution = "1080p",
     duration = 5,
   }) {
-    const payload = { prompt, model, size, duration };
-    if (image_url) {
-      payload.image_url = image_url;
+    const payload = { prompt, model, resolution, duration };
+    if (image) {
+      payload.image = image;
     }
     return this.request("/v1/videos", { method: "POST", body: payload });
   }
@@ -35,7 +35,7 @@ export class USVideoAPI {
   }
 
   async listApiKeys() {
-    return this.request("/v1/api-keys");
+    return this.request("/v1/auth/api-keys");
   }
 
   async waitForVideo(jobId, { pollIntervalMs = 5000, timeoutMs = 300000 } = {}) {

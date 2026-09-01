@@ -23,16 +23,16 @@
         "properties": {
           "model": {
             "type": "string",
-            "example": "seedance-1-pro"
+            "example": "seedance-2.0"
           },
           "prompt": {
             "type": "string"
           },
-          "image_url": {
+          "image": {
             "type": "string",
             "nullable": true
           },
-          "size": {
+          "resolution": {
             "type": "string",
             "example": "1080p"
           },
@@ -143,7 +143,7 @@
         }
       }
     },
-    "/v1/api-keys": {
+    "/v1/auth/api-keys": {
       "get": {
         "summary": "List API keys",
         "responses": {

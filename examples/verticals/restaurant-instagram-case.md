@@ -26,9 +26,9 @@ curl -X POST "https://usvideoapi.com/v1/videos" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": "A 9:16 restaurant ad with close-up food shots, lunch combo pricing, fast pacing, and a clear visit-now CTA.",
-    "size": "1080p",
+    "resolution": "1080p",
     "duration": 5
   }'
 ```

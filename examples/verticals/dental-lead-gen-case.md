@@ -26,9 +26,9 @@ curl -X POST "https://usvideoapi.com/v1/videos" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -d '{
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": "A 9:16 dental clinic ad with clean office visuals, smiling patient moments, clear treatment credibility, and a book-now CTA.",
-    "size": "1080p",
+    "resolution": "1080p",
     "duration": 5
   }'
 ```

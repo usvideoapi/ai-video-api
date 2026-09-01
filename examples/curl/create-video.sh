@@ -10,8 +10,8 @@ curl -X POST "https://usvideoapi.com/v1/videos" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer ${USVIDEOAPI_KEY}" \
   -d '{
-    "model": "seedance-1-pro",
+    "model": "seedance-2.0",
     "prompt": "A polished 9:16 ecommerce ad for a skincare product with clean product beauty shots, quick benefit callouts, and a clear offer CTA.",
-    "size": "1080p",
+    "resolution": "1080p",
     "duration": 5
   }'

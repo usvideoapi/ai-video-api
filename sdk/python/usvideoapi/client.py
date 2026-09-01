@@ -29,26 +29,26 @@ class USVideoAPI:
         self,
         *,
         prompt: str,
-        model: str = "seedance-1-pro",
-        image_url: str | None = None,
-        size: str = "1080p",
+        model: str = "seedance-2.0",
+        image: str | None = None,
+        resolution: str = "1080p",
         duration: int = 5,
     ) -> dict:
         payload = {
             "model": model,
             "prompt": prompt,
-            "size": size,
+            "resolution": resolution,
             "duration": duration,
         }
-        if image_url:
-            payload["image_url"] = image_url
+        if image:
+            payload["image"] = image
         return self._request("POST", "/v1/videos", payload)
 
     def get_video(self, job_id: str) -> dict:
         return self._request("GET", f"/v1/videos/{job_id}")
 
     def list_api_keys(self) -> dict:
-        return self._request("GET", "/v1/api-keys")
+        return self._request("GET", "/v1/auth/api-keys")
 
     def wait_for_video(
         self,

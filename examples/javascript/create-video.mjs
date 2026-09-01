@@ -6,10 +6,10 @@ if (!apiKey) {
 }
 
 const payload = {
-  model: "seedance-1-pro",
+  model: "seedance-2.0",
   prompt:
     "A 9:16 ad for a dental clinic with clean office visuals, smiling patient moments, trust-building text overlays, and a booking CTA.",
-  size: "1080p",
+  resolution: "1080p",
   duration: 5,
 };
 
